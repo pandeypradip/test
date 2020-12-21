@@ -4,12 +4,9 @@ import java.util.*;
 
 public class LOLOralcleJDBCTest {
 
-    /*static String URL = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = dene1lx3)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = orcl.dene1lx3)))";*/
-    static String URL = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (COMMUNITY = tcpcom.world)(PROTOCOL = TCP)(Host = dfjddb1.cnxlol.com)(Port = 1607))(CONNECT_DATA = (SID = dfjd1prd)(GLOBAL_NAME = dfjd1prd.world)))";
-    static String USER = "jde";
-    /*static String PASS = "jde";*/
-    static String PASS = "madtv2n1te";
-    /*static String query0 = "select * FROM SY812.F986101";*/
+    static String URL = "jdbc:oracle:thin:@tnsname";
+    static String USER = "user";
+    static String PASS = "pass";
     static String query1 = "SELECT * FROM PDDTA.F47036";
     static String query2 = "SELECT * FROM PDDTA.F4072";
     static String query3 = "SELECT * FROM PDDTA.F4101";
